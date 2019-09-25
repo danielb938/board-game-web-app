@@ -91,7 +91,7 @@ class ConnectFour extends React.Component {
                     return "Winner: Red!";
                 }
                 else if (blocks[row][col] === 'Y' && blocks[row + 1][col + 1] === 'Y' && blocks[row + 2][col + 2] === 'Y' && blocks[row + 3][col + 3] === 'Y') {
-                    return "Winne: Yellow!";
+                    return "Winner: Yellow!";
                 }
             }
         }
@@ -103,7 +103,7 @@ class ConnectFour extends React.Component {
                     return "Winner: Red!";
                 }
                 else if (blocks[row][col] === 'Y' && blocks[row + 1][col - 1] === 'Y' && blocks[row + 2][col - 2] === 'Y' && blocks[row + 3][col - 3] === 'Y') {
-                    return "Winne: Yellow!";
+                    return "Winner: Yellow!";
                 }
             }
         }
