@@ -87,7 +87,7 @@ class ConnectFour extends React.Component {
         //Check for Left Diagonal Win 00 11 22 33
         for (let row = 0; row < blocks.length - 3; row++) {
             for (let col = 0; col < blocks[row].length - 3; col++) {
-                if (blocks[row][col] === 'R' && blocks[row + 1][col + 1] === 'R' && blocks[row + 2][col + 2] === 'R' && blocks[row + 3][col + 3] === 'Y') {
+                if (blocks[row][col] === 'R' && blocks[row + 1][col + 1] === 'R' && blocks[row + 2][col + 2] === 'R' && blocks[row + 3][col + 3] === 'R') {
                     return "Winner: Red!";
                 }
                 else if (blocks[row][col] === 'Y' && blocks[row + 1][col + 1] === 'Y' && blocks[row + 2][col + 2] === 'Y' && blocks[row + 3][col + 3] === 'Y') {
