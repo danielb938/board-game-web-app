@@ -1,0 +1,44 @@
+.center {
+    text-align: center;
+}
+.default {
+    color: rgb(0, 0, 0);
+    background: #4C8FFB;
+    border: 1px #3079ED solid;
+    box-shadow: inset 0 1px 0 #80B0FB;
+    font-size: 35px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.default:focus {
+    outline: none;
+}
+.row {
+    display: table-row;
+}
+.sizeConfig {
+    font-size: 40px;
+}
+.td {
+    background-color: #287ccf;
+    border: 5px solid #1c5a97;
+    color: white;
+    display: table-cell;
+    float: left;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+    width: 130px;
+}
+.td:hover {
+    background-color: #ddd;
+}
+.table {
+    border: 5px solid #1c5a97;
+    display: table;
+    margin: auto;
+    margin-top: 100px;
+}
